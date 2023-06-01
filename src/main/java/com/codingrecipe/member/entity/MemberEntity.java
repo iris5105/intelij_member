@@ -28,7 +28,7 @@ public class MemberEntity {
         MemberEntity memberEntity = new MemberEntity();
         memberEntity.setMemberEmail(memberDTO.getMemberEmail());
         memberEntity.setMemberPassword(memberDTO.getMemberPassword());
-        memberEntity.setMemberName(memberEntity.getMemberName());
+        memberEntity.setMemberName(memberDTO.getMemberName());
         return memberEntity;
     }
 }
